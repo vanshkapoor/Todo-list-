@@ -1,0 +1,81 @@
+.container {
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	width: 360px;
+	background: #f7f7f7;
+	margin:100px  auto; 
+
+}
+.completed{
+	 color:gray;
+	 text-decoration: line-through;
+}
+
+body{
+     font-family: 'Roboto', sans-serif;
+}
+.fa-angle-double-down{
+	float:right;
+	padding-right: 15px;
+}
+body{
+	background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+span{
+	background:#e74c3c;
+	height:30px;
+	color:white;
+	margin-right: 20px;
+	text-align: center;
+	width:0;
+	display: inline-block;
+	transition: width 0.2s;
+	opacity: 0;
+}
+li:hover span{
+	width:30px;
+	opacity: 1.0;
+}
+li{ 
+	height:30px;
+	line-height: 30px;
+	background: #fff;
+	color:#666;
+ }
+ /*this will make every second li of the specified color*/
+ li:nth-child(2n){
+ 	background: #f7f7f7;
+ }
+ul{
+	 list-style: none;
+	 margin:0;
+	 padding:0;
+}
+h1{  
+	 color: white;
+	 background: #2980b9;
+	 margin : 0;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+     padding-left: 20px;
+     text-transform: uppercase;
+     font-size: 24px;
+     font-weight: normal;
+}
+input{
+	 color:#2980b9;
+	 font-size:18px;
+	 height:40px;
+	 border:none;
+	 background:#f7f7f7;
+	 padding:10px 10px 10px 20px;
+	 box-sizing: border-box;
+	 width:100%;
+}
+input:focus{
+	background:#fff;
+	border:3px solid #2980b9 ;
+	outline:none;
+}
